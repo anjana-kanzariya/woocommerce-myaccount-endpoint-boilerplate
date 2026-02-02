@@ -1,0 +1,21 @@
+/* Heart look */
+.add-product-to-favourite .fav-icon:before {
+    content: "♡";
+    font-size: 22px;
+}
+
+/* Active */
+.add-product-to-favourite.added .fav-icon:before {
+    content: "♥";
+    color: #e60023;
+}
+
+/* Guest styling – looks normal but no hover pointer */
+.add-product-to-favourite.guest {
+    cursor: default;
+    opacity: 0.8;
+}
+
+.add-product-to-favourite.guest:hover {
+    transform: none;
+}
